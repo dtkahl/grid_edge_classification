@@ -19,9 +19,9 @@ represent a levee that would otherwise fall between neighboring grid
 edges. It is left to the user to reformat the output for supporting other
 applications.
 
-This code relies on commands from the following matlab toolboxes
-       Image Processing Toolbox
-       Mapping Toolbox
+This code relies on commands from the following matlab toolboxes:
+       Image Processing Toolbox & 
+       Mapping Toolbox.
 
 Within the code, several additional inputs must be specified by the user:
 
