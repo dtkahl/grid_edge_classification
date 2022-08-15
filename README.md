@@ -1,4 +1,4 @@
-# Primo_levee_test
+# Grid Edge Classification
 The purpose of this program is to create a list of grid edges that are classified to represent the effects of levees (or walls) in a raster grid flood inundation model. 
 
 The method that is implemented in this code is described in a research
