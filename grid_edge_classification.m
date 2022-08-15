@@ -1,6 +1,6 @@
 %% Grid Edge Classification
-% Authors:Daniel Kahl &  Brett Sanders
-%         University of California, Irvine
+% Authors: Daniel Kahl &  Brett Sanders
+%            University of California, Irvine
 % Source: https://doi.org/10.1016/j.advwatres.2022.104287
 
 % Contact: bsanders@uci.edu, dkahl1@uci.edu
