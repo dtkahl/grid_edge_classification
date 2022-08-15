@@ -1,9 +1,9 @@
 %% Grid Edge Classification
-% Authors:Daniel Kahl &  Brett Sanders
-%         University of California, Irvine
+% Authors: Daniel Kahl &  Brett Sanders
+%            University of California, Irvine
 % Source: https://doi.org/10.1016/j.advwatres.2022.104287
 
-% Contact: dkahl1@uci.edu, 
+% Contact: bsanders@uci.edu, dkahl1@uci.edu
 
 %The purpose of this program is to create a list of grid edges that are
 %classified to represent the effects of levees (or walls) in a raster grid
