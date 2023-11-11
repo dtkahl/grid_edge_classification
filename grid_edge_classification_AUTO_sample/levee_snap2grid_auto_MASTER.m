@@ -1,7 +1,4 @@
-clear
-close all
-clc
-
+%% Grid edge classification: Auto
 %This Matlab program is designed to input two files:
 %   (1) a shape file with polyline data
 %   (2) a DEM file with topographic heights
@@ -23,8 +20,9 @@ clc
 %This code is set up to run a test case called "leveetest" using an upscale
 %factor of either 10, 20 or 50. The holes and plugs need to be manually
 %edited to successfully build a .levee file for each case.
+clear; close all; clc
 
-%Controls
+%% Controls
 usf=5;
 dir_gis = []%'data\';
 makeleveefile=1; %0=off, 1=on
@@ -270,26 +268,7 @@ for col=1:ncolu
 end
 nHedge=e;
 
-%remove 
-
-% adding levee lines for usf10 dam openings
-% % LA Dam
-% Hedge(803,801:803) = 1;
-% 
-% % site 2
-% Hedge(489,1091:1097) = 1;
-% Vedge(489,1097) = -1;
-% 
-% % site 3
-% Vedge(1290:1293, 2103) = 1;
-% Vedge(1290:1293, 2102) = 1;
-% Hedge(1292,12101:1203) = 1;
-% 
-% % site 4
-% Vedge(979:982,2487) = 1;
-% Hedge(979,2484:2486) =1;
-
-
+%%
 figure
 imagesc(xc,yc,z)
 axis square
